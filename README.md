@@ -1,5 +1,4 @@
-Golang学习笔记
-==========
+#Golang学习笔记
 ### [第三天](https://github.com/Golangcoder/golangNote/tree/master/3rd)
 **更新时间** 2014年10月23日
 ####知识点：
