@@ -1,8 +1,8 @@
 #Golang学习笔记
 记录一个不会编程的菜鸟如何一步步学会Golang编程的
-####目录
+####//目录
 #####[第三天](https://github.com/Golangcoder/golangNote/tree/master/3rd)**更新时间** 2014年10月23日
-####内容
+####//内容
 #####第三天：
 - 指针和变量
 - 闭包
