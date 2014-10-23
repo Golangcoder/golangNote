@@ -1,8 +1,8 @@
 Golang学习笔记
 ==========
-[第三天](https://github.com/Golangcoder/golangNote/tree/master/3rd)
+### [第三天](https://github.com/Golangcoder/golangNote/tree/master/3rd)
 **更新时间** 2014年10月23日
-###知识点：
+####知识点：
 - 指针和变量
 - 闭包
 - 结构，包含了结构的声明，初始化，结构属性的操作，以及结构在函数中的传递与操作
