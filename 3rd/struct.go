@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-type Test struct {
+type Test struct { //type关键字+结构名称+struct关键字+{}
 	Name string
 	Age  int
 }
