@@ -22,3 +22,9 @@ func (x *Ract) Hello() int {
 }
 
 //为结构体添加方法并调用
+/*
+哦，当然这里的绑定参数是不是改为self会让你觉得更为习惯呢？
+func (self *Ract) Hello int {
+	return self.long * self.width
+}
+*/
