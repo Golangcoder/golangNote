@@ -3,6 +3,7 @@
 ####//目录
 #####[第三天](https://github.com/Golangcoder/golangNote/tree/master/3rd)**更新时间** 2014年10月23日
 #####[第四天](https://github.com/Golangcoder/golangNote/tree/master/4th)**更新时间** 2014年10月24日
+#####[第五天](https://github.com/Golangcoder/golangNote/tree/master/5th)**更新时间** 2014年10月25日
 ####//内容
 #####第三天：
 - 指针和变量
@@ -18,3 +19,6 @@
 - 结构中匿名字段如何在嵌入结构中操作呢？子结构会将父结构中的字段进行隐藏，当然也可以显式的调用更改。
 - panic与recover,recover在defer中调用则会终止panic序列（panic sequence)并将panic信息传递给调用者。
 - 类型方法绑定以及两种方法调用的方式：method-value, method-expression
+
+#####第五天：
+- 接口，嵌套接口，为结构实现接口，如何通过接口条用结构中的字段值，将对象赋值给接口实际上接口内部存储的是对象的复制品的指针，所以，对接口赋值之后，再对原对象进行属性修改，将不会影响到接口内部。
