@@ -1,8 +1,8 @@
 我们可以为类型绑定方法，那么，通过什么方式来实现方法的绑定呢？没错，就是receiver。下面的self就被称为
 receiver
-    `type T struct{name string}//定义了一个结构，并添加了一个string类型的name字段
+    type T struct{name string}//定义了一个结构，并添加了一个string类型的name字段
     func (self *T) Hello(){self.name = "Hello"}//通过receiver的类型来判断这个方法和谁绑定，这里就是T类型
-    func (self T) World(){self.name = "World"}//这里就是World方法和T类型的指针类型绑定`
+    func (self T) World(){self.name = "World"}//这里就是World方法和T类型的指针类型绑定
 这里说，类型T关联一个MethodSet，类型*T也关联一个MethodSet，但是，*T的MethodSet包含了T的MethodSet，要求
 就是MethodSet的方法名唯一。那么这两者之间到底有什么联系呢？上代码：
     `a:=T{}//初始化了一个裸值类型
