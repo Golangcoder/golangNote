@@ -7,6 +7,7 @@ receiver
     
 这里说，类型T关联一个MethodSet，类型*T也关联一个MethodSet，但是，*T的MethodSet包含了T的MethodSet，要求
 就是MethodSet的方法名唯一。那么这两者之间到底有什么联系呢？上代码：
+
     `a:=T{}//初始化了一个裸值类型
     a.Hello()
     ptr:=new(T)//初始化了一个指针类型
@@ -17,4 +18,5 @@ receiver
 还是指针类型，如果是指针类型，会发生类似(*self).name = "hello"这样的变化（这里并不准，只是为了理解）。
 
 Golang.org的wiki中也有对MethodSet的说明：
+
 [MethodSet](https://code.google.com/p/go-wiki/wiki/MethodSets)
