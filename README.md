@@ -5,6 +5,7 @@
 #####[第四天](https://github.com/Golangcoder/golangNote/tree/master/4th)**更新时间** 2014年10月24日
 #####[第五天](https://github.com/Golangcoder/golangNote/tree/master/5th)**更新时间** 2014年10月25日
 #####[第六天](https://github.com/Golangcoder/golangNote/tree/master/6th)**更新时间** 2014年10月26日
+#####[第七天](https://github.com/Golangcoder/golangNote/tree/master/7th)**更新时间** 2014年10月27日
 ####//内容
 #####第三天：
 - 指针和变量
@@ -27,3 +28,6 @@
 #####第六天：
 - MethodSet，自己理解。类型*T的方法设置包含了T类型的方法。程序会根据传入对象的类型来对应实现各自的方法。
 - 接口类型判断
+
+#####第七天：
+- 反射，反射接口类型，其字段，字段类型，方法，包含了匿名，嵌套，作出读取或更改操作
