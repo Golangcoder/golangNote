@@ -5,6 +5,7 @@
     func main() {
         a := [10]string{"a", "b", "c", "d", "e"}
         b := make(chan string, 3)
+        //将chan的缓存设置成3，当chan里的内容没到3，chan就不会阻塞
         go func() {
             for i := range a {
                 b <- a[i]
