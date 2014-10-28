@@ -6,6 +6,7 @@
 #####[第五天](https://github.com/Golangcoder/golangNote/tree/master/5th)**更新时间** 2014年10月25日
 #####[第六天](https://github.com/Golangcoder/golangNote/tree/master/6th)**更新时间** 2014年10月26日
 #####[第七天](https://github.com/Golangcoder/golangNote/tree/master/7th)**更新时间** 2014年10月27日
+#####[第八天](https://github.com/Golangcoder/golangNote/tree/master/8th)**更新时间** 2014年10月28日
 ####//内容
 #####第三天：
 - 指针和变量
@@ -32,3 +33,7 @@
 #####第七天：
 - 反射，反射接口类型，其字段，字段类型，方法，包含了匿名，嵌套，作出读取或更改操作
 - 一个结构方法的实例
+
+######第八天：
+- 程序构建，Go程序构建的组织关系。
+- 静态编译，动态编译
