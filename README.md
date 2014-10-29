@@ -7,6 +7,7 @@
 #####[第六天](https://github.com/Golangcoder/golangNote/tree/master/6th)**更新时间** 2014年10月26日
 #####[第七天](https://github.com/Golangcoder/golangNote/tree/master/7th)**更新时间** 2014年10月27日
 #####[第八天](https://github.com/Golangcoder/golangNote/tree/master/8th)**更新时间** 2014年10月28日
+#####[第九天](https://github.com/Golangcoder/golangNote/tree/master/9th)**更新时间** 2014年10月29日
 ####//内容
 #####第三天：
 - 指针和变量
@@ -37,3 +38,8 @@
 ######第八天：
 - 程序构建，Go程序构建的组织关系。
 - 静态编译，动态编译
+
+######第九天：
+- 完成了Goplayer的小玩意，各种错，各种Fix，主要是类型传入或者接受的时候参数没有写对，另外就是，这个Demo中用到了Golang的一些包，还不是很了解
+- 看了本英文的Golang教程的部分内容，主要包含了slice & array, Fucntions, Method, Method Set, the differences between new() and make(),不得不说，这本书写的真是行云流水，给人一种酣畅淋漓的感觉，比谢大那本读起来顺畅。
+- 早上看了无闻老师的Web编程基础底前几堂课，决定先把Http指南看一遍。再跟着搞搞GoWeb编程。
