@@ -42,4 +42,4 @@
 #####第九天：
 - 完成了Goplayer的小玩意，各种错，各种Fix，主要是类型传入或者接受的时候参数没有写对，另外就是，这个Demo中用到了Golang的一些包，还不是很了解
 - 看了本英文的Golang教程的部分内容，主要包含了slice & array, Fucntions, Method, Method Set, the differences between new() and make(),不得不说，这本书写的真是行云流水，给人一种酣畅淋漓的感觉，比谢大那本读起来顺畅。
-- 早上看了无闻老师的Web编程基础底前几堂课，决定先把Http指南看一遍。再跟着搞搞GoWeb编程。
+- 早上看了无闻老师的Web编程基础前几堂课，决定先把Http指南看一遍。再跟着搞搞GoWeb编程。
